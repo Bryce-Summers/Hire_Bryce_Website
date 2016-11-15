@@ -21,6 +21,9 @@ body
     max-width: 800px;
     margin: auto;
     border: 0px solid #000000;
+
+    /* Top, Right, Bottom, Left. */
+    padding: 0px 10px 0px 10px;
 }
 
 /* Sets fill color of elements in any of the headings. */
@@ -36,10 +39,44 @@ h1
 	font-style: italic;
 }
 
+.quote
+{
+	font-size: 100%;
+	text-align: justify;
+
+
+
+	/* Top, Right, Bottom, Left. */
+    padding: 0px 50px 0px 50px;
+
+	/*
+	background-color:rgba(255,255,255, .9);
+	text-indent: 5em;
+	vertical-align: middle;
+	line-height: 200%;
+	*/
+}
+
+.contact
+{
+	text-align: right;
+	/* Top, Right, Bottom, Left. */
+    padding: 0px 50px 50px 50px;	
+}
+
+.quote_author
+{
+	text-align: center;	
+}
+
 .size1
 {
 	font-size: 100%;
 	text-align: justify;
+
+	/* Top, Right, Bottom, Left. */
+    padding: 0px 0px 0px 0px;
+
 	/*
 	background-color:rgba(255,255,255, .9);
 	text-indent: 5em;
